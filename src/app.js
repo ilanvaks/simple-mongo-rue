@@ -11,7 +11,7 @@ const mongoUri = process.env.DATABASE_CONNECTION
 
 mongoose.connect(mongoUri, {
   useNewUrlParser: true,
-  useUnifiedTopology: true,
+  useUnifiedTopology: true
 })
 
 .then(() => {
